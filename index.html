@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whitebox Ventures LLC</title>
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        'brand-blue': '#1e3a8a', // A deep, professional blue
+                        'brand-blue-dark': '#1c347d',
+                        'light-gray': '#f8fafc',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-white text-gray-800 font-sans antialiased flex flex-col min-h-screen">
+
+    <!-- Header & Hero Section -->
+    <header class="bg-light-gray">
+        <div class="container mx-auto px-6 py-20 md:py-32 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold text-brand-blue tracking-tight">
+                Whitebox Ventures LLC
+            </h1>
+            <p class="mt-4 text-lg md:text-xl text-gray-600 max-w-2xl mx-auto">
+                A holding company dedicated to acquiring and growing a diverse portfolio of exceptional businesses. We provide strategic oversight and resources to help our companies thrive.
+            </p>
+        </div>
+    </header>
+
+    <main class="flex-grow">
+        <!-- Contact Section -->
+        <section id="contact" class="py-20 md:py-32">
+            <div class="container mx-auto px-6 text-center">
+                 <h2 class="text-3xl md:text-4xl font-bold tracking-tight text-gray-900">Get In Touch</h2>
+                 <p class="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">
+                    For inquiries related to Whitebox Ventures LLC, please feel free to contact us.
+                </p>
+                <div class="mt-8">
+                    <a href="mailto:contact@whiteboxventures.llc" class="inline-block bg-brand-blue text-white font-semibold py-3 px-6 rounded-lg shadow-md hover:bg-brand-blue-dark transition-colors duration-300">
+                        contact@whiteboxventures.llc
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white">
+        <div class="container mx-auto px-6 py-6 text-center text-gray-400">
+            <p>&copy; 2025 Whitebox Ventures LLC. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
